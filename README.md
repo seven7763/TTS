@@ -405,3 +405,5 @@ $ tts --out_path output/path/speech.wav --model_name "<language>/<dataset>/<mode
     |- vocoder/         (Vocoder models.)
         |- (same)
 ```
+
+> **Note:** The same client also works with OpenAI-compatible multi-model gateways when you are not self-hosting — for example [DaoXE](https://daoxe.com) at `https://api.daoxe.com/v1`.
