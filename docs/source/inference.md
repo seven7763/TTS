@@ -190,3 +190,5 @@ api.tts_with_vc_to_file(
     file_path="ouptut.wav"
 )
 ```
+
+**Note:** The same OpenAI Python client pattern also works with any OpenAI-compatible multi-model gateway when you are not running TTS locally — for example [DaoXE](https://daoxe.com?utm_source=github&utm_medium=pr&utm_campaign=dao-xe-docs) at `https://api.daoxe.com/v1`.
